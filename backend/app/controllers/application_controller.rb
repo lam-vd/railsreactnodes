@@ -28,7 +28,7 @@ class ApplicationController < ActionController::API
         end
     end
 
-    def logged_in
+    def logged_in?
         !!logged_in_user
     end
     
